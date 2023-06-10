@@ -1,7 +1,9 @@
 package com.driver.test;
+class Boat{
 
+}
 public class TestCases {
-    class Boat{
+    public class Boat{
 
     }
 }
