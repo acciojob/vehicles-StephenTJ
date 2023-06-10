@@ -7,7 +7,6 @@ public class Boat extends Vehicle implements WaterVehicle{
         super(name);
         this.capacity=capacity;
     }
-
     public String getVehicleName(){
         return this.name;
     }
