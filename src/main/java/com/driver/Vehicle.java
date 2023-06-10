@@ -3,6 +3,15 @@ package com.driver;
 public class Vehicle {
 
     String name;
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
+    }
+
     private int currentSpeed;
     private int currentDirection;
 
